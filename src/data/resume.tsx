@@ -67,8 +67,14 @@ export const DATA = {
     },
   },
 
-  // kept field; empty is safe with `.map`
-  work: [],
+ work: [] as {
+  company: string;
+  role: string;
+  logoUrl: string;
+  start: string;
+  end: string;
+  description: string;
+}[],
 
   education: [
     {
