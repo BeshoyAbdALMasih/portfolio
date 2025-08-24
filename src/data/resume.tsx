@@ -1,8 +1,9 @@
 // site.config.ts (or config.ts depending on repo structure)
 
-export const siteConfig = {
+export const DATA = {
   name: "Beshoy Abd Al-Masih",
   title: "Telecommunications Engineer | Data Scienctist",
+  url: "https://beshoy.vercel.app", // replace with your deployed site link
   description:
     "I'm Beshoy, a Telecommunications Engineering student and Data Science enthusiast. Passionate about building machine learning solutions, analyzing data, and applying modern tech to solve real-world problems.",
 
