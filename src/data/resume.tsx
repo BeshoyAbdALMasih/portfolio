@@ -76,6 +76,7 @@ export const DATA = {
   description: string;
 }[],
 
+
   education: [
     {
       school: "Telecommunications Engineering (B.Sc.)",
