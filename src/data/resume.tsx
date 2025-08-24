@@ -1,55 +1,38 @@
-// site.config.ts (or config.ts depending on repo structure)
-
+// site.config.ts
 export const DATA = {
   name: "Beshoy Abd Al-Masih",
-  title: "Telecommunications Engineer | Data Scienctist",
-  url: "https://beshoy.vercel.app", // replace with your deployed site link
+  url: "https://beshoyabdalmasih.github.io", // or your custom domain
   description:
-    "I'm Beshoy, a Telecommunications Engineering student and Data Science enthusiast. Passionate about building machine learning solutions, analyzing data, and applying modern tech to solve real-world problems.",
-
-  socials: {
+    "Telecommunications engineering student & data science learner. Passionate about AI, ML, and building impactful projects.",
+  navbar: [
+    { name: "Home", href: "#home" },
+    { name: "Projects", href: "#projects" },
+    { name: "About", href: "#about" },
+    { name: "Contact", href: "#contact" },
+  ],
+  social: {
     github: "https://github.com/BeshoyAbdALMasih",
-    linkedin: "https://www.linkedin.com/in/beshoy-abd-al-masih-6b01712a5/", // replace with yours
-    email: "BeshoyAbdalmasih14@gmail.com", // replace with your email
+    linkedin: "https://www.linkedin.com/in/your-profile",
+    email: "your.email@example.com",
   },
-
   projects: [
     {
       title: "Salary Classification Analysis",
+      href: "https://github.com/BeshoyAbdALMasih/Salary-Classification-Analysis",
       description:
-        "A machine learning project analyzing salary classification based on features like education, job title, and demographics.",
-      tech: ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
-      link: "https://github.com/BeshoyAbdALMasih/Salary-Classification-Analysis",
+        "A machine learning project analyzing salary data with classification models.",
     },
     {
       title: "Housing Price Prediction",
+      href: "https://github.com/BeshoyAbdALMasih/Housing-Price-Prediction",
       description:
-        "Predictive modeling project focused on estimating housing prices using regression techniques and feature engineering.",
-      tech: ["Python", "NumPy", "Scikit-learn"],
-      link: "https://github.com/BeshoyAbdALMasih/Housing-Price-Prediction",
+        "Predicting house prices using regression models and feature engineering.",
     },
     {
-      title: "Movie Recommendation System",
+      title: "Image Matching Challenge 2025",
+      href: "https://github.com/BeshoyAbdALMasih/Image-Matching-3D",
       description:
-        "Explored collaborative filtering and content-based techniques to build a movie recommendation engine.",
-      tech: ["Python", "Pandas", "Surprise", "NLP"],
-      link: "https://github.com/BeshoyAbdALMasih/Movie-Recommendation-System",
-    },
-    {
-      title: "Linear Regression",
-      description:
-        "This project implements a Linear Regression model using only NumPy, showcasing the mathematical foundations behind regression and gradient descent optimization. It is designed for learning and experimentation rather than production use.",
-      tech: ["NumPy"],
-      link: "https://github.com/BeshoyAbdALMasih/My_own_LinearRegression",
+        "Kaggle project on reconstructing 3D scenes from image collections.",
     },
   ],
-
-  blog: {
-    enabled: false, // set true if you want a blog
-  },
-
-  theme: {
-    colorScheme: "light", // or "dark"
-    accentColor: "#00C6FF",
-  },
 };
