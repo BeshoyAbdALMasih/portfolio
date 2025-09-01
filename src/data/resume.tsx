@@ -137,7 +137,13 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Implemented a sentiment analysis pipeline on the Sentiment140 dataset. Preprocessed and vectorized tweets using TF-IDF, then trained and evaluated multiple classifiers (BernoulliNB, Logistic Regression, Linear SVC) to predict tweet sentiment (positive/negative). The project demonstrates end-to-end machine learning workflow including data collection, preprocessing, feature engineering, model training, evaluation, and experimentation.",
+        {
+  title: "Twitter Sentiment Analysis",
+  href: "https://github.com/BeshoyAbdALMasih/Twitter_Sentiment_Analysis",
+  dates: "2025",
+  active: true,
+  description:
+    "Notebook-based sentiment analysis project on the Sentiment140 dataset. Applied TF-IDF vectorization on tweets and trained multiple classifiers (BernoulliNB, Logistic Regression, Linear SVC) to evaluate sentiment prediction performance.",
   technologies: ["Python", "Pandas", "Scikit-Learn"],
   links: [
     {
