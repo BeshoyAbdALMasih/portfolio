@@ -132,12 +132,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Twitter Sentiment Analysis",
-      href: "https://github.com/BeshoyAbdALMasih/Twitter_Sentiment_Analysis",
-      dates: "2025",
-      active: true,
-      description:
-        {
   title: "Twitter Sentiment Analysis",
   href: "https://github.com/BeshoyAbdALMasih/Twitter_Sentiment_Analysis",
   dates: "2025",
@@ -150,11 +144,11 @@ export const DATA = {
       type: "Source",
       href: "https://github.com/BeshoyAbdALMasih/Twitter_Sentiment_Analysis",
       icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
     },
+  ],
+  image: "",
+  video: "",
+},
     {
       title: "Linear Regression (from scratch)",
       href: "https://github.com/BeshoyAbdALMasih/My_own_LinearRegression",
