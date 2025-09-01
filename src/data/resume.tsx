@@ -115,7 +115,7 @@ export const DATA = {
     },
     {
       title: "Housing Price Prediction",
-      href: "https://github.com/BeshoyAbdALMasih/Housing-Price-Prediction",
+      href: "https://github.com/BeshoyAbdALMasih/HousePriceingPrediction",
       dates: "2024",
       active: true,
       description:
