@@ -132,18 +132,18 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Movie Recommendation System",
-      href: "https://github.com/BeshoyAbdALMasih/Movie-Recommendation-System",
-      dates: "2024",
+      title: "Twitter Sentiment Analysis",
+      href: "https://github.com/BeshoyAbdALMasih/Twitter_Sentiment_Analysis",
+      dates: "2025",
       active: true,
       description:
-        "Built recommendation engine using collaborative filtering and content-based approaches.",
-      technologies: ["Python", "Pandas", "Surprise", "NLP"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/BeshoyAbdALMasih/Movie-Recommendation-System",
-          icon: <Icons.github className="size-3" />,
+        "Implemented a sentiment analysis pipeline on the Sentiment140 dataset. Preprocessed and vectorized tweets using TF-IDF, then trained and evaluated multiple classifiers (BernoulliNB, Logistic Regression, Linear SVC) to predict tweet sentiment (positive/negative). The project demonstrates end-to-end machine learning workflow including data collection, preprocessing, feature engineering, model training, evaluation, and experimentation.",
+  technologies: ["Python", "Pandas", "Scikit-Learn"],
+  links: [
+    {
+      type: "Source",
+      href: "https://github.com/BeshoyAbdALMasih/Twitter_Sentiment_Analysis",
+      icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
