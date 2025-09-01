@@ -92,7 +92,7 @@ export const DATA = {
     {
       title: "Salary Classification Analysis",
       href: "https://github.com/BeshoyAbdALMasih/Salary-Classification-Analysis",
-      dates: "2024",
+      dates: "2025",
       active: true,
       description:
         "ML project analyzing salary classes using features like education, job title, and demographics. Full EDA + training pipeline.",
@@ -152,7 +152,7 @@ export const DATA = {
     {
       title: "Linear Regression (from scratch)",
       href: "https://github.com/BeshoyAbdALMasih/My_own_LinearRegression",
-      dates: "2024",
+      dates: "2025",
       active: true,
       description:
         "Numpy-only implementation of Linear Regression with gradient descent to highlight the math behind the model.",
